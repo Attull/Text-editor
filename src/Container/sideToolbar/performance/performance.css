@@ -1,0 +1,21 @@
+.performance-container{
+    margin:8px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    
+}
+
+.feature-boxes{
+    border: 1px solid rgb(236, 239, 241);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.box1{
+    color:rgb(46, 44, 44);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.25px;
+    padding:1px 0px 12px 15px;
+    box-shadow: rgb(236, 239, 241) 0px -1px 0px inset;
+}

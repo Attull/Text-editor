@@ -1,0 +1,36 @@
+.editorContainer{
+  border:5px solid red;
+  width:50%;
+  max-width: 50%;
+  top:0;
+  bottom: 0;
+  left:0;
+  position: absolute;
+ 
+}
+
+.toolbar-container{
+     
+}
+.small-btn{
+    margin-left: 450px;
+    margin-top: -45px;
+    height: 30px;
+    padding: 5px;
+    width: 200px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.bttn{
+  background-color: #cad1ca;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+  margin:5px;
+  font-size: 12px;
+  cursor: pointer;
+  
+}

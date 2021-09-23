@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-
+import EditorContainer from './Container/editorContainer';
+import SideToolbar from './Container/sideToolbar';
 function App() {
+  const [Tlength, setTlength] = useState([]);
+console.log(Tlength)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div><EditorContainer Tlength={Tlength} setTlength={setTlength}/></div>
+      <div><SideToolbar Tlength={Tlength} /></div>
     </div>
   );
 }

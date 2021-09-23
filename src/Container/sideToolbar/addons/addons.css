@@ -1,0 +1,36 @@
+.addons-container{
+    margin:8px;
+}
+
+.addOn-boxes{
+    border: 1px solid rgb(236, 239, 241);
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    color:rgb(46, 44, 44);
+    font-weight: normal;
+    line-height: 1.25px;
+    padding:1px 0px 12px 15px;
+    box-shadow: rgb(236, 239, 241) 0px -1px 0px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.fc{
+    background-color: rgb(46, 46, 165);
+    height:35px;
+    width:120px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+    color:white;
+    font-size: 13px;
+}
